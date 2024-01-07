@@ -79,20 +79,15 @@
                   >Pages</a
                 >
                 <div class="dropdown-menu bg-light">
-                  <a href="book.html" class="dropdown-item">Booking</a>
                   <a href="blog.html" class="dropdown-item">Our Blog</a>
-                  <a href="404.html" class="dropdown-item">404 Page</a>
                 </div>
               </div>
-              <a href="contact.html" class="nav-item nav-link active"
-                >Контакти</a
-              >
             </div>
 
             <a
               href=""
               class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill"
-              >Book Now</a
+              >Свържете се с нас</a
             >
           </div>
         </nav>
@@ -178,27 +173,31 @@
                 Очаквайте скоро отговор от наш екип за потвърждение и
                 допълнителни детайли.
               </p>
-              <form>
+              <form action="https://formspree.io/f/xjvnvzny" method="POST">
                 <input
                   type="text"
+                  name="Full Name"
                   required
                   class="w-100 form-control p-3 mb-4 border-primary bg-light"
                   placeholder="Full Name"
                 />
                 <input
                   type="tel"
+                  name="Phone Number"
                   required
                   class="w-100 form-control p-3 mb-4 border-primary bg-light"
                   placeholder="Phone Number"
                 />
                 <input
                   type="email"
+                  name="E-mail"
                   required
                   class="w-100 form-control p-3 mb-4 border-primary bg-light"
                   placeholder="E-mail"
                 />
                 <textarea
                   required
+                  name="Message Content"
                   class="w-100 form-control mb-4 p-3 border-primary bg-light"
                   rows="4"
                   cols="10"
