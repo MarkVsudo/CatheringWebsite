@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -159,6 +164,17 @@ h6,
 
 /*** Navbar End ***/
 
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+    /* Adjust z-index to make sure it's on top of the video */
+}
 
 /*** Events Start ***/
 .event .tab-class .nav-item a.active {
