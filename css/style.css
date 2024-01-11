@@ -2,6 +2,27 @@ body {
     overflow-x: hidden;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #d4a762 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(219, 219, 219);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #d4a762;
+    border-radius: 10px;
+}
+
 
 /*** Spinner Start ***/
 #spinner {
@@ -252,6 +273,15 @@ h6,
 
 .service-item .service-content-icon a.btn-primary {
     transition: 1s !important;
+}
+
+
+.service-btn {
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*** Services End ***/
