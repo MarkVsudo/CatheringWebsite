@@ -499,3 +499,19 @@ h6,
 }
 
 /*** Footer End ***/
+
+
+
+.image_about {
+    padding-left: 13%;
+    width: 1000px;
+    height: 500px;
+}
+
+.text {
+    padding-top: 4%;
+    padding-left: 35%;
+    max-width: 70%;
+    text-align: center;
+    size: 30px;
+}
