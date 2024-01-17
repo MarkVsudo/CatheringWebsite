@@ -39,3 +39,43 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+$(document).ready(function () {
+  // Function to toggle visibility of service content
+  function toggleServiceContent(serviceNumber) {
+    // Hide all service containers
+    $(".service-content").hide();
+
+    // Show the selected service container
+    $("#serviceContainer" + serviceNumber).fadeIn();
+  }
+
+  // Wedding Services Button Click Event
+  $("#weddingBtn").click(function () {
+    toggleServiceContent(1);
+  });
+
+  // Corporate Catering Button Click Event
+  $("#corporateBtn").click(function () {
+    toggleServiceContent(2);
+  });
+
+  // Cocktail Reception Button Click Event
+  $("#cocktailBtn").click(function () {
+    toggleServiceContent(3);
+  });
+
+  // Bento Catering Button Click Event
+  $("#bentoBtn").click(function () {
+    toggleServiceContent(4);
+  });
+
+  // Pub Party Button Click Event
+  $("#pubBtn").click(function () {
+    toggleServiceContent(5);
+  });
+
+  // Buffet Catering Button Click Event
+  $("#buffetBtn").click(function () {
+    toggleServiceContent(6);
+  });
+});
