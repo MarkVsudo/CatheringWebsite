@@ -66,9 +66,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto">
-              <a href="index.html" class="nav-item nav-link active">Начало</a>
+              <a href="index.html" class="nav-item nav-link">Начало</a>
               <a href="about.html" class="nav-item nav-link">За Нас</a>
-              <a href="service.html" class="nav-item nav-link">Услуги</a>
+              <a href="service.html" class="nav-item nav-link active">Услуги</a>
               <a href="event.html" class="nav-item nav-link">Галерия</a>
               <!-- <a href="blog.html" class="nav-item nav-link">Блог</a> -->
             </div>
@@ -143,6 +143,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Wedding Services</a
               >
@@ -150,6 +151,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Corporate Cathering</a
               >
@@ -157,6 +159,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Cocktail Reception</a
               >
@@ -166,6 +169,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Bento Cathering</a
               >
@@ -173,6 +177,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Pub Party</a
               >
@@ -180,6 +185,7 @@
             <div class="col">
               <a
                 href="#"
+                onclick="return false;"
                 class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft service-btn"
                 >Buffet Cathering</a
               >
@@ -187,48 +193,159 @@
           </div>
 
           <!-- Content for Wedding Services -->
-<div class="container service-content" id="serviceContainer1" style="display: none;">
-  <h1 class="display-1 mb-4">Сватбени услуги</h1>
-  <p>Нека направим вашата сватба незабравима. От изисканата храна до елегантната сервировка, CaterServ е вашият ключ към перфектния сватбен ден.</p>
-  <img src="https://watermark.lovepik.com/photo/20211120/large/lovepik-the-golden-wedding-stage-picture_500501082.jpg" alt="Wedding Services Image" class="img-fluid">
-</div>
+          <div
+            class="container service-content py-6"
+            id="serviceContainer1"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://images.pexels.com/photos/17001844/pexels-photo-17001844/free-photo-of-empty-restaurant-before-a-wedding-party.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="img-fluid rounded"
+                  alt="Wedding Services Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Сватбени услуги</h1>
+                <p class="mb-4">
+                  Нека направим вашата сватба незабравима. От изисканата храна
+                  до елегантната сервировка, CaterServ е вашият ключ към
+                  перфектния сватбен ден.
+                </p>
+              </div>
+            </div>
+          </div>
 
-<!-- Content for Corporate Catering -->
-<div class="container service-content" id="serviceContainer2" style="display: none;">
-  <h1 class="display-1 mb-4">Корпоративни Кетъринг Услуги</h1>
-  <p>За срещи, конференции и корпоративни събития, ние осигуряваме изключително обслужване и качествена храна. Вашият успех е наш приоритет.</p>
-  <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8fDA%3D" alt="Corporate Catering Image" class="img-fluid">
-</div>
+          <!-- Content for Corporate Catering -->
+          <div
+            class="container service-content py-6"
+            id="serviceContainer2"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8fDA%3D"
+                  class="img-fluid rounded"
+                  alt="Corporate Catering Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Корпоративни Кетъринг Услуги</h1>
+                <p class="mb-4">
+                  За срещи, конференции и корпоративни събития, ние осигуряваме
+                  изключително обслужване и качествена храна. Вашият успех е наш
+                  приоритет.
+                </p>
+              </div>
+            </div>
+          </div>
 
-<!-- Content for Cocktail Reception -->
-<div class="container service-content" id="serviceContainer3" style="display: none;">
-  <h1 class="display-1 mb-4">Партита и Събития</h1>
-  <p>Организираме всякакви партита и събития - от рождени дни до специални поводи. За нас няма малки детайли, всеки момент е уникален.</p>
-  <img src="https://groupgordon.com/wp-content/uploads/2022/04/Messe_Luzern_Corporate_Event.jpg" alt="Cocktail Reception Image" class="img-fluid">
-</div>
+          <!-- Content for Cocktail Reception -->
+          <div
+            class="container service-content py-6"
+            id="serviceContainer3"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://groupgordon.com/wp-content/uploads/2022/04/Messe_Luzern_Corporate_Event.jpg"
+                  class="img-fluid rounded"
+                  alt="Cocktail Reception Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Партита и Събития</h1>
+                <p class="mb-4">
+                  Организираме всякакви партита и събития - от рождени дни до
+                  специални поводи. За нас няма малки детайли, всеки момент е
+                  уникален.
+                </p>
+              </div>
+            </div>
+          </div>
 
-<!-- Content for Bento Catering -->
-<div class="container service-content" id="serviceContainer4" style="display: none;">
-  <h1 class="display-1 mb-4">Лични Събития</h1>
-  <p>Искате да отпразнувате лично постижение? CaterServ ще направи всеки момент незабравим, отбелязвайки го с изискан стил и вкусна храна.</p>
-  <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnQlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww" alt="Bento Catering Image" class="img-fluid">
-</div>
+          <!-- Content for Bento Catering -->
+          <div
+            class="container service-content py-6"
+            id="serviceContainer4"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnQlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww"
+                  class="img-fluid rounded"
+                  alt="Bento Catering Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Лични Събития</h1>
+                <p class="mb-4">
+                  Искате да отпразнувате лично постижение? CaterServ ще направи
+                  всеки момент незабравим, отбелязвайки го с изискан стил и
+                  вкусна храна..
+                </p>
+              </div>
+            </div>
+          </div>
 
-<!-- Content for Pub Party -->
-<div class="container service-content" id="serviceContainer5" style="display: none;">
-  <h1 class="display-1 mb-4">Тематични Гурме Събития</h1>
-  <p>Позволете ни да ви заведем на кулинарно приключение, където всеки залък е уникален опит. От екзотични мезета до изискани десерти, нашите гурме събития са създадени, за да оставят впечатление. Съчетавайки тематика, декорация и изкушаващи вкусове, всяко гурме събитие с CaterServ е изцяло персонализирано и несравнимо.</p>
-  <img src="https://karawanico.com/wp-content/uploads/2017/10/revelry-event-designers-homepage-slideshow-38.jpeg" alt="Pub Party Image" class="img-fluid">
-</div>
+          <!-- Content for Pub Party -->
+          <div
+            class="container service-content py-6"
+            id="serviceContainer5"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://images.pexels.com/photos/1304475/pexels-photo-1304475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="img-fluid rounded"
+                  alt="Pub Party Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Тематични Гурме Събития</h1>
+                <p class="mb-4">
+                  Позволете ни да ви заведем на кулинарно приключение, където
+                  всеки залък е уникален опит. От екзотични мезета до изискани
+                  десерти, нашите гурме събития са създадени, за да оставят
+                  впечатление. Съчетавайки тематика, декорация и изкушаващи
+                  вкусове, всяко гурме събитие с CaterServ е изцяло
+                  персонализирано и несравнимо.
+                </p>
+              </div>
+            </div>
+          </div>
 
-<!-- Content for Buffet Catering -->
-<div class="container service-content" id="serviceContainer6" style="display: none;">
-  <h1 class="display-1 mb-4">Други Услуги</h1>
-  <p>Ние се ангажираме да задоволяваме всички вашите нужди. Ако имате специални изисквания или уникални идеи, свържете се с нас - ние сме тук, за да ги изпълним.
-
-    Не губете време - направете вашето събитие незабравимо с CaterServ. Свържете се с нас днес, за да започнем да планираме заедно!</p>
-  <img src="https://eclipse.global/wp-content/uploads/2018/11/So-Sri-Lanka-CS-2.jpg" alt="Buffet Catering Image" class="img-fluid">
-</div>
+          <!-- Content for Buffet Catering -->
+          <div
+            class="container service-content py-6"
+            id="serviceContainer6"
+            style="display: none"
+          >
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5">
+                <img
+                  src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="img-fluid rounded"
+                  alt="Buffet Catering Image"
+                />
+              </div>
+              <div class="col-lg-7">
+                <h1 class="display-5 mb-4">Други Услуги</h1>
+                <p class="mb-4">
+                  Ние се ангажираме да задоволяваме всички вашите нужди. Ако
+                  имате специални изисквания или уникални идеи, свържете се с
+                  нас - ние сме тук, за да ги изпълним. Не губете време -
+                  направете вашето събитие незабравимо с CaterServ. Свържете се
+                  с нас днес, за да започнем да планираме заедно!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
